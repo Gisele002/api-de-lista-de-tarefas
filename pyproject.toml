@@ -1,0 +1,15 @@
+[project]
+name = "api-de-tarefas"
+version = "0.1.0"
+description = "API REST de Lista de Tarefas (To-Do) para a disciplina Programação para Internet II"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "httpx>=0.27.0",
+]
